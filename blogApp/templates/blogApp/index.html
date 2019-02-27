@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<h1>boop</h1>
+<form method="post">
+    {% csrf_token %}
+    {{ BlogForm.as_p }}
+    <button>submit</button>
+</form>
+<!--injects that it saved to verify it saved-->
+{% block content %}
+
+{% endblock content %}
+</body>
+</html>
