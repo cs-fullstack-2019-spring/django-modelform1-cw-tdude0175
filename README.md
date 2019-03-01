@@ -1,3 +1,5 @@
+## POINTS: 2
+## KEY: Well done! You are the only one to submit working code and not forget the 'published_date' field 
 # Django Model Forms 1 CW
 
 ### Exercise 1: Create a basic blog entry page
